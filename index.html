@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Formulario</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+
+	</head>
+
+	<body>
+		<h1>Mi primer sitio con JavaScript</h1>
+
+		<form class="formulario">
+			<h1>Ingresse sus datos</h1>
+			
+			<div class="fix">
+			<div class="formElements ">
+				<label>Valor 1</label>
+				<input type="text" id="valor1" placeholder="Variable1" class="inputUno"/>
+			</div>	
+
+			<div class="formElements">
+				<label>Valor 2</label>
+				<input type="text" id="valor2" placeholder="Variable2" class="inputUno"/>
+			</div>	
+		</div>
+		<div class="fix">
+			<div class="formElements ">
+				<label>Resultado</label>
+				<input type="text" id="resultado" placeholder="Resultado" class="inputUno"/>
+			</div>	
+			<div class="fix">
+			<div class="formElements ">
+				<input onclick=operar("+") type="button" value="+" class="button1" />
+				<input onclick=operar("-") type="button" value="-" class="button1" />
+				<input onclick=operar("*") type="button" value="*" class="button1" />
+				<input onclick=operar("-") type="button" value="/" class="button1" />
+				<input onclick=operar("/") type="button" value="=" class="button1" />
+
+			</div>	
+
+
+		</form>
+		<script src="js/app.js"></script>
+	</body>
+
+</html>
